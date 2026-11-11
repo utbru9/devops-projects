@@ -1,2 +1,2 @@
 # devops-projects
-Config files for my GitHub profile.
+DevOps config files for my GitHub profile.
