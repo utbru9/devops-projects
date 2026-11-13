@@ -1,0 +1,4 @@
+fields @timestamp, @message, @logStream
+| filter @message like /ERROR|Exception|AccessDenied|failed/
+| sort @timestamp desc
+| limit 50

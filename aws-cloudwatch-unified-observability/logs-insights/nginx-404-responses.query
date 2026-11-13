@@ -1,0 +1,4 @@
+fields @timestamp, @message, @logStream
+| filter @message like / 404 /
+| sort @timestamp desc
+| limit 50

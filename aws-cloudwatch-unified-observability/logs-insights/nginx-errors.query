@@ -1,0 +1,4 @@
+fields @timestamp, @message, @logStream
+| filter @message like /ERROR|error|500|502|503|504/
+| sort @timestamp desc
+| limit 50
