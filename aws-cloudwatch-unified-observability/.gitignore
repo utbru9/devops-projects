@@ -1,0 +1,21 @@
+# AWS credentials and keys
+.aws/
+.env
+*.pem
+*.ppk
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editors and operating systems
+.vscode/
+.DS_Store
+Thumbs.db
