@@ -1,0 +1,37 @@
+# AWS credentials and private keys
+.aws/
+credentials
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+
+# Packer
+packer_cache/
+*.pkrvars.hcl
+!*.pkrvars.example.hcl
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Operating system and IDE files
+.DS_Store
+Thumbs.db
+.idea/
